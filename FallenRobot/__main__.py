@@ -76,18 +76,18 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Halo!
-Saya Adalah Mirc Robot, Group Manager / Music Voice Chat Dengan Fitur Yang Sangat Menarik.
+Saya Adalah Hiroshirobot, Group Manager / Music Voice Chat Dengan Fitur Yang Sangat Menarik.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-• Version 7.9 Last
-• Fell Free Add To Your Group
+➛ *Uptime:* {}
+➛ {} *users, across* {} *chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Tekan Tombol Help Untuk Mengetahui Fitur Menarik Dari Mirc Robot ×[×](https://telegra.ph/file/5b39746a9cbb3b7273c3a.jpg)
+➛ Tekan Tombol Help Untuk Mengetahui Fitur Menarik Dari HiroshiRobot ×[×](https://telegra.ph//file/53a551f5a002aedbb2a66.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ Add To Your Group ✗", url="https://t.me/mircmusicbot?startgroup=true"),
+            text="✗ Add To Your Group ✗", url="https://t.me/hiroshirobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -95,7 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text=" Channel ", url="https://t.me/rioprojects"),
+            text=" Channel ", url="https://t.me/vailedcode"),
         InlineKeyboardButton(
             text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data="source_"),
     ],
@@ -104,17 +104,17 @@ buttons = [
             text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text=" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/riasyee"
+            text=" ᴅᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/splesneey"
         ),
     ],
 ]
 
-FallenRobot_IMG = "https://telegra.ph/file/5b39746a9cbb3b7273c3a.jpg"
+FallenRobot_IMG = "https://telegra.ph//file/53a551f5a002aedbb2a66.jpg"
 
 HELP_STRINGS = """
-Mirc ✘ ʀᴏʙᴏᴛ *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @riogroupsupport*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*"""
+нιяσѕнι ✘ ʀᴏʙᴏᴛ *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @hiroxsupport*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*"""
 
-DONATE_STRING = """[Rio](https://t.me/fckualot)"""
+DONATE_STRING = """[splesneey](https://t.me/splesneey)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -359,7 +359,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "fallen_":
         query.message.edit_text(
-            text="""*💔 ʜᴇʏ,\n\n  ᴛʜɪs ɪs *[Rio ✘ ʀᴏʙᴏᴛ](t.me/Rio2Robot)\n\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ. *\n\nɪ ʜᴀᴠᴇ ᴛʜᴇ ɴᴏʀᴍᴀʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ꜰᴜɴᴄᴛɪᴏɴꜱ ʟɪᴋᴇ ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ, ᴀ ᴡᴀʀɴɪɴɢ ꜱʏꜱᴛᴇᴍ ᴇᴛᴄ ʙᴜᴛ ɪ ᴍᴀɪɴʟʏ ʜᴀᴠᴇ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʜᴀɴᴅʏ ᴀɴᴛɪꜱᴘᴀᴍ ꜱʏꜱᴛᴇᴍ ᴀɴᴅ ᴛʜᴇ ʙᴀɴɴɪɴɢ ꜱʏꜱᴛᴇᴍ ᴡʜɪᴄʜ ꜱᴀꜰᴇɢᴀᴜʀᴅꜱ ᴀɴᴅ ʜᴇʟᴘꜱ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴘᴀᴍᴍᴇʀꜱ.\n\n👀 ᴡʜᴀᴛ ᴄᴀɴ ɪ ᴅᴏ :\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ.\n\n➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ.\n\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ.\n\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ.\n\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ.\n\n➲  ɪ ᴄʜᴇᴄᴋ ꜰᴏʀ ᴀᴅᴍɪɴꜱ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ʙᴇꜰᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ ꜱᴛᴜꜰꜰꜱ.\n\n\n* ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ *[ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](t.me/riogroupsupport) *\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ *[Rio](https://t.me/fckualot)""",
+            text="""*💔 ʜᴇʏ,\n\n  ᴛʜɪs ɪs *[нιяσѕнι ✘ ʀᴏʙᴏᴛ](t.me/hiroshirobot)\n\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ. *\n\nɪ ʜᴀᴠᴇ ᴛʜᴇ ɴᴏʀᴍᴀʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ꜰᴜɴᴄᴛɪᴏɴꜱ ʟɪᴋᴇ ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ, ᴀ ᴡᴀʀɴɪɴɢ ꜱʏꜱᴛᴇᴍ ᴇᴛᴄ ʙᴜᴛ ɪ ᴍᴀɪɴʟʏ ʜᴀᴠᴇ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʜᴀɴᴅʏ ᴀɴᴛɪꜱᴘᴀᴍ ꜱʏꜱᴛᴇᴍ ᴀɴᴅ ᴛʜᴇ ʙᴀɴɴɪɴɢ ꜱʏꜱᴛᴇᴍ ᴡʜɪᴄʜ ꜱᴀꜰᴇɢᴀᴜʀᴅꜱ ᴀɴᴅ ʜᴇʟᴘꜱ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴘᴀᴍᴍᴇʀꜱ.\n\n👀 ᴡʜᴀᴛ ᴄᴀɴ ɪ ᴅᴏ :\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ.\n\n➲  ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜꜱᴇʀꜱ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴀɴᴅ ᴇᴠᴇɴ ꜱᴇᴛ ᴀ ɢʀᴏᴜᴘ'ꜱ ʀᴜʟᴇꜱ.\n\n➲  ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜꜱᴇʀꜱ ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴꜱ, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇꜰɪɴᴇᴅ ᴀᴄᴛɪᴏɴꜱ ꜱᴜᴄʜ ᴀꜱ ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ.\n\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ.\n\n➲  ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ ꜱʏꜱᴛᴇᴍ, ʙʟᴀᴄᴋʟɪꜱᴛꜱ, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇꜱ ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅꜱ.\n\n➲  ɪ ᴄʜᴇᴄᴋ ꜰᴏʀ ᴀᴅᴍɪɴꜱ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ ʙᴇꜰᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ ꜱᴛᴜꜰꜰꜱ.\n\n\n* ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ *[ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](t.me/riogroupsupport) *\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ *[splesneey](https://t.me/splesneey)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,7 +385,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs Rio ✘ ʀᴏʙᴏᴛ*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/rioprojectx/Rio-Robot)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [Group Support](https://t.me/riogroupsupport) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [Rio](https://t.me/fckualot)""",
+            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs нιяσѕнι ✘ ʀᴏʙᴏᴛ*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/vanostrax/hiroshirobot)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [Group Support](https://t.me/hiroxsupport) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [splesneey](https://t.me/splesneey)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -638,7 +638,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1356469075 and DONATION_LINK:
+        if OWNER_ID != 314180533 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -686,7 +686,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "» Mirc ✘ ʀᴏʙᴏᴛ ɪs ᴀʟɪᴠᴇ !")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "» нιяσѕнι ✘ ʀᴏʙᴏᴛ ɪs ᴀʟɪᴠᴇ !")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
